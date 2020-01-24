@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Election(India)</title>
+<link href="flag3.ico" type="image" rel="icon">
+<style>
+ #a {
+        width: 100%;
+        padding: 10px 0;
+        background-color: orange;
+    	height: 40%;
+	text-align:center;
+      }
+   #b {
+        width: 100%;
+        padding: 10px 0;
+        background-color: white;
+    	height: 40%;
+	text-align:center;
+      }
+ #c {
+        width: 100%;
+        padding: 10px 0;
+        background-color: green;
+    	height: 40%;
+	text-align:center;
+      }
+body {
+     margin:0;
+     }
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  color: grey;
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="navbar">
+ <a href="Main_Slide.html"> <img src="flag4.jpg" 
+alt="Italian Trulli" width="35" height="35"></a>
+  <a href="MERA_BHARAT.html">MERA BHARAT</a>
+  <a href="Election_In_India.html">ELECTIONS IN INDIA</a>
+  <a href="QuizTime.html">QUIZ TIME?</a>
+</div>
+<br><br><br><br><br><br>
+<div class="slideshow-container">
+
+<div class="mySlides fade" style="text-align:center">
+  <img src="INDIA.jpg" style="width:100% height:100%">
+</div>
+
+<div class="mySlides fade" style="text-align:center">
+  <img src="CST.PNG" style="width:100% height:100%">
+</div>
+
+<div class="mySlides fade" style="text-align:center">
+  <img src="RAHUL.PNG" style="width:100% height:100%">
+</div>
+
+<div class="mySlides fade" style="text-align:center">
+  <img src="KEJRIWAL.PNG" style="width:100% height:100%">
+</div>
+<div class="mySlides fade" style="text-align:center">
+  <img src="MAMTA.JPG" style="width:100% height:100%">
+</div>
+<div class="mySlides fade" style="text-align:center">
+  <img src="MAYAWATI.jpg" style="width:100% height:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+</script>
+<br>
+<p id="a"><strong>********WORLD'S BIGGEST VOTING EVENT HAS BEEN STARTED.NOTE THE DATE (23)********<strong><p>
+<p id="b"><strong>********WORLD'S BIGGEST VOTING EVENT HAS BEEN STARTED.NOTE THE MONTH (MAY)********<strong><p>
+<p id="c"><strong>********WORLD'S BIGGEST VOTING EVENT HAS BEEN STARTED.NOTE THE YEAR (2019)********<strong><p>
+
+</body>
+</html>

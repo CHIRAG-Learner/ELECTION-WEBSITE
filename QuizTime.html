@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Election(India)</title>
+<link href="flag3.ico" type="image" rel="icon">
+<style>
+.big{
+ width:20px; height: 20px; 
+}
+
+ #chi{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: green; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 25px;
+     }
+#chir{
+  display: block;
+  background-color: blue; 
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  font-size: 10px;
+}
+   
+ #a {
+        width: 100%;
+        padding: 10px 0;
+        background-color: lightblue;
+    	height: 40%;
+	text-align:center;
+      }
+.active {
+  background-color: #717171;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  color: grey;
+}
+#chirag { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  border: 2px groove (internal value);
+  font-size:12px;
+  padding:10px;
+  
+}
+#nishit
+{
+font-size: 60px;
+text-decoration: underline;
+text-shadow: 3px 2px green;
+color:orange;
+}
+</style>
+</head>
+<body>
+<div class="navbar">
+ <a href="Main_Slide.html"> <img src="flag4.jpg" 
+alt="Italian Trulli" width="35" height="35"></a>
+  <a href="MERA_BHARAT.html">MERA BHARAT</a>
+  <a href="Election_In_India.html">ELECTIONS IN INDIA</a>
+  <a href="QuizTime.html">QUIZ TIME?</a>
+</div>
+<br><br><br><br><br><br>
+<fieldset style="width: 70%; height: 100%;margin-left: auto;margin-right: auto;">
+    <legend><strong>INSTRUCTIONS:</strong></legend>
+      <IMG SRC="KEEP.JPG" align="RIGHT">
+    <ol> 
+        <li>ALL QUESTIONS ARE MANDATORY.</LI><BR>
+        <li>ATTEMPT THE SUBJECTIVE QUESTION ONLY IN THE FORMAT PROVIDED BELOW.</LI><BR>
+        <LI>WELL THAT'S ENOUGH GO AHEAD AND ATTEMPT QUESTIIONS.</LI>
+   </ol>
+  </fieldset>
+<br><br><Br><BR><BR>
+<hr>
+<br><br><Br><br>
+<form name="myForm" action="/action_page.php">
+  <fieldset style="width: 70%; height: 100%;" id="chirag">
+    <legend id="nishit" align="center"><strong>QUIZ:</strong></legend>
+     <IMG SRC="SMILEY.JPG" align="RIGHT">
+<BR><BR><BR>
+    <ol>
+       <li><h2>HOW MANY CONSTITUENCIES ARE THERE IN PUNJAB?</h2></li>
+        <input type="radio"  class="big" name="first" value="mal" required >10<br>
+        <input type="radio" class="big"  name="first" value="fem"> 12<br>
+        <input type="radio" class="big"  name="first" value="oth">13<br>
+         <input type="radio" class="big"  name="first" value="other">15<br>
+      <br><Br>
+  	<li><h2>HOW MANY STATES ARE THERE IN OUR COUNTRY(INDIA)?<h2></li>
+ 	<input type="radio" class="big" name="second" value="mal" required>28<br>
+        <input type="radio" class="big" name="second" value="fem"> 29<br>
+        <input type="radio" class="big" name="second" value="oth">30<br>
+         <input type="radio" class="big"  name="second" value="other">27<br>
+       <br><Br>
+        <li><h2>WHICH CONSTITUENCY HAS LARGEST NUMBER OF VOTERS IN LOK SABHA ELECTION 2014?<h2></li>
+        <input type="radio" class="big" name="third" value="mal" required>MALKAJGIRI<br>
+        <input type="radio" class="big" name="third" value="fem">LADAKH<br>
+        <input type="radio" class="big" name="third" value="oth">PANIPAT<br>
+         <input type="radio" class="big" name="third" value="other">TRIVANDRUM<br>
+      <br><Br>
+        <li><h2>INDIRA GANDHI IS DAUGHTER OF?<h2></li>
+        <input type="radio" class="big" name="fourth" value="mal" required>MOTILAL NEHRU<br>
+        <input type="radio" class="big" name="fourth" value="fem">MAHATMA GANDHI<br>
+        <input type="radio" class="big" name="fourth" value="oth">JAWAHARLAL NEHRU<br>
+         <input type="radio" class="big" name="fourth" value="other">NONE OF THESE<br>
+      <br><Br>
+        <li><h2>LOK SABHA ELECTION 2019 RESULT WILL BE DECLARED ON?<h2></li>
+          <input type="radio" class="big" name="fifth" value="mal" required>21-MAY-2019<br>
+        <input type="radio" class="big" name="fifth" value="fem">22-MAY-2019<br>
+        <input type="radio" class="big" name="fifth" value="oth">23-MAY-2019<br>
+         <input type="radio" class="big" name="fifth" value="other">24-MAY-2019<br>
+      <br><Br>
+       <button id ="chir" type="reset" value="Reset">Reset</button>  
+       <br><br><Br>
+ 	  <input id="chi" type="submit" value="Submit" onclick="return myFunction()">
+         
+   </ol>
+  </fieldset>
+</form>
+<script>
+function myFunction() {
+  var a = document.forms["myForm"]["first"].value;
+  var b = document.forms["myForm"]["second"].value;
+  var c = document.forms["myForm"]["third"].value;
+  var d = document.forms["myForm"]["fourth"].value;
+  var e= document.forms["myForm"]["fifth"].value;  
+  
+if (a == "" || b=="" ||c=="" ||d==""||e=="") {
+    alert("FIRSTLY ATTEMPT ALL QUESTIONS,\nTHEN PROCEED TO SUBMIT BUTTON....");
+    return false;
+  }
+  else
+{  
+  var o=0;
+  if(a=="oth")
+  o++;
+   if(b=="fem")
+   o++;
+  if(c=="mal")
+  o++;
+  if(d=="oth")
+  o++;
+  if(e=="oth")
+  o++;
+  if(o==0)
+   {
+ alert("YOU HAVE VERY LOW IQ LEVEL,\n YOU HAVE GIVEN "+o+" OUT OF 5 CORRECT ANSWERS");
+  return false;
+   }
+	  if(o>=1 && o<=3)
+   {
+ alert("YOU HAVE MODERATE IQ LEVEL,\n YOU HAVE GIVEN "+o+" OUT OF 5 CORRECT ANSWERS");
+  return false;
+   }
+     if(o==4)
+   {
+ alert("YOU HAVE GOOD IQ LEVEL,\n YOU HAVE GIVEN "+o+" OUT OF 5 CORRECT ANSWERS");
+  return false;
+   }
+ if(o==5)
+   {
+ alert("YOU HAVE AWESOME IQ LEVEL,\n YOU HAVE GIVEN "+o+" OUT OF 5 CORRECT ANSWERS");
+  return false;
+   }
+ }
+}
+</script>
+
+</body>
+</html>
